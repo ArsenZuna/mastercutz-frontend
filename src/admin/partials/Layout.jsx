@@ -18,7 +18,7 @@ const Layout = ({children}) => {
 					<div className='p-3'>
 						<Sidebar isOpen={isSidebarOpen} onClose={() => setIsSidebarOpen(false)}/>
 					</div>
-					<div className="mx-10 w-full">
+					<div className="mr-4 lg:mx-10 w-full pb-5">
 						{children}
 					</div>
 				</div>

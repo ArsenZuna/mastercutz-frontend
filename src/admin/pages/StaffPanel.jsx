@@ -4,8 +4,10 @@ import Staff from "../dashboard/components/Staff.jsx";
 const StaffPanel = () => {
 	return (
 		<Layout>
-			<h1 className="pt-6 text-2xl font-bold mb-4">Staff</h1>
-			<Staff />
+			<div className='mx-5'>
+				<h1 className="pt-6 text-2xl font-bold mb-4">Staff</h1>
+				<Staff/>
+			</div>
 		</Layout>
 	)
 };

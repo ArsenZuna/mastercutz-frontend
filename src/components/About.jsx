@@ -30,7 +30,7 @@ const About = () => {
 					viewport={{once: true, amount: 0.3}}
 					className='flex justify-center items-center'
 				>
-					<div className='grid grid-cols-1 gap-2'>
+					<div className='hidden lg:grid grid-cols-1 gap-2'>
 						<iframe width="500" height="300"
 										src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=John%20Doe%20Street+(MasterCutz)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
 							<a href="https://www.gps.ie/collections/sports-gps/">Sport GPS</a></iframe>

@@ -86,10 +86,10 @@ const FinanceView = ({ appointments }) => {
 	};
 
 	return (
-		<div className="p-4">
-			<h2 className="text-2xl font-bold mb-4">Finances</h2>
+		<div>
+			<h1 className="pt-6 text-2xl font-bold mb-4">Finances</h1>
 			{/* Toggle switch */}
-			<div className="mb-4 font-semibold text-end mr-10">
+			<div className="hidden lg:block mb-4 font-semibold text-end mr-10">
 				<button
 					onClick={() => setChartView(false)}
 					className={`px-4 py-2 rounded-l ${
@@ -110,7 +110,7 @@ const FinanceView = ({ appointments }) => {
 
 			{!chartView ? (
 				// Cards view
-				<div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+				<div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 pt-5">
 					{monthlyFinances.map((data, idx) => (
 						<div
 							key={idx}

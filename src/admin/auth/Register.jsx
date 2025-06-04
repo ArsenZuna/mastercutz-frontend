@@ -34,7 +34,7 @@ const Register = () => {
 
 
 	return (
-		<section className="flex justify-center items-center mx-[125px]">
+		<section className="flex justify-center items-center my-[125px]">
 			<div className="w-full lg:w-3/5">
 				<div className="text-center">
 					<h2 className="text-4xl font-bold mb-4">Register</h2>

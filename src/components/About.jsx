@@ -44,7 +44,7 @@ const About = () => {
 					whileInView='show'
 					viewport={{once: true, amount: 0.3}}
 				>
-					<div className='mt-5 text-center'>
+					<div className='mt-2 lg:mt-5 text-center'>
 						<div className='flex flex-col justify-center items-center align-middle mt-4'>
 							<h2 className='text-lg sm:text-xl lg:text-3xl font-bold'>MASTERCUTZ</h2>
 							<p className='mt-4 italic font-semibold'>John Doe Street, Lorem, Ipsum</p>

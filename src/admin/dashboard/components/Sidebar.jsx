@@ -69,7 +69,7 @@ const Sidebar = ({ isOpen, onClose }) => {
 						)}
 					</ul>
 				</div>
-				<div className="flex justify-center gap-5 mt-[375px]">
+				<div className="flex justify-center gap-5 mt-24 md:mt-[375px]">
 					<button
 						onClick={handleSettings}
 						className="p-3 bg-gray-100 rounded-full hover:bg-black hover:text-white transition-colors duration-300"
